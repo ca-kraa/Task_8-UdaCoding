@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  font-family: "Space Mono";
+}
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar .btn {
+  color: #000;
+}
+
+.navbar .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.hero-section {
+  padding: 50px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  width: 450px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.hero-title {
+  font-size: 24px; /* Ukuran font diubah menjadi 24px */
+  font-weight: bold;
+  color: #000;
+}
+
+.hero-paragraph {
+  font-size: 16px; /* Ukuran font diubah menjadi 16px */
+  color: #333;
+}
+
+.book-now-btn {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.book-now-btn:hover {
+  background-color: #0056b3;
+}
+
+/* .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
